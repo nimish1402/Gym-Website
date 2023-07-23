@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitness freak</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background-image: url('1087587.jpg');
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .navbar {
+            display: inline-block;
+            font-size: 17px;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+
+            text-decoration: underline;
+            padding: 34px 23px;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 14px;
+            
+        }
+
+        .left img {
+            width: 73px;
+
+        }
+
+        .name {
+            text-align: center;
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 26px;
+            
+        }
+
+        .center {
+            
+            display: block;
+            width: 38%;
+            margin: 26px auto;
+            
+
+
+        }
+
+        .btn {
+            margin:  15px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(31, 30, 30);
+        }
+
+        .container {
+            border: 2px solid rgb(254, 252, 252);
+            margin: 116px 102px;
+            padding: 70px 70px;
+            width: 30%;
+            display: block;
+            border-radius: 10px;
+        }
+
+        .form-group input {
+            text-align: center;
+            font-size: 20px;
+            display: block;
+            width: 263px;
+            padding: 4px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 39%;
+            margin: 4px auto;
+        }
+
+        #bt1 {
+            float: left;
+        }
+
+        #bt2 {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="14928770-removebg-preview.png" alt="">
+            <div class="name"></div>fitness freaks
+        </div>
+
+        <!-- center box for nav bar -->
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">fitness calculator</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for buttons  -->
+        <div class="right">
+            <button class="btn">Register Now</button>
+            <button class="btn">mail us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>join the best gym of Delhi NOW!!!</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Name">
+            </div>
+            <button class="btn" id="bt1">Submit</button>
+            <button class="btn" id="bt2">Reset</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
